@@ -1,0 +1,147 @@
+html {
+  font-size: 16px;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+  .container {
+    max-width: 90vw;
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 98vw;
+    padding: 12px 4px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 100vw;
+    padding: 6px 2px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Playpen Sans Thai', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Playpen Sans Thai', Arial, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: max-width 0.2s, padding 0.2s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #007bff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 12px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul li img {
+  margin-right: 12px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.btn, .btn-next {
+  padding: 10px 28px;
+  font-size: 1em;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+.btn:hover, .btn-next:hover {
+  background: #0056b3;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 24px auto;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.navbar-brand {
+  color: #007bff !important;
+}
+.navbar-brand:hover {
+  color: #0056b3 !important;
+}
+
+.my-rounded-all {
+  border-radius: 18px !important;
+  overflow: hidden;
+}
+
+.my-rounded-left,
+.my-rounded-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 12px;
+  min-width: 150px;
+  height: 150px;
+}
+
+.my-rounded-left {
+  border-radius: 18px 0 0 18px !important;
+}
+
+.my-rounded-right {
+  border-radius: 0 18px 18px 0 !important;
+}
+
+.my-img-padding {
+  padding: 12px;
+}
+
+.my-rounded-all {
+  border-radius: 18px !important;
+  overflow: hidden;
+}
+.my-img-padding {
+  padding: 12px;
+}
